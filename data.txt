@@ -5,7 +5,7 @@
         "subject": "Toán",
         "number": 50,
         "time": 90,
-        "answer": "DCABCACAABACBCBADCDADBCAABBBBCADCBDACCDCBBDDADDDDA"
+        "answer": "DCABCACAABACBCBADCDADBCAABBBBCADCBDDCCDCBBDDADDDDA"
     },
     "phys": {
         "id": "phys",
