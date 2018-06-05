@@ -1,5 +1,6 @@
 var Name = "", Subject = "", Num = 0, Answer = "", Nameoftest = "", Time = 0;
 var list = [];
+var timeout = false;
 var xmlhttp = new XMLHttpRequest();
 xmlhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
@@ -95,7 +96,7 @@ function generateQuiz() {
     panel.appendChild(button);
 }
 
-function scoring(timeout = false) {
+function scoring() {
     var result = [];
     var answer = [];
     for (var i = 0; i < Num; i++) {
@@ -115,7 +116,7 @@ function scoring(timeout = false) {
                     return;
                 }
                 else {
-                    checkone = 1;
+                    checkone = -1;
                     break;
                 }
             }
@@ -134,6 +135,7 @@ function scoring(timeout = false) {
                 answer.push("d");
                 break;
             default:
+                answer.push("0");
                 break;
         }
     }
@@ -226,6 +228,11 @@ function timer() {
         // Find the distance between now an the count down date
         var distance = countDownDate - now;
 
+        if (distance == 5*60*1000){
+            // 5 minutes next:
+            alert("Còn 5 phút ! Hãy hoàn thành phiếu !");
+        }
+
         // Time calculations for days, hours, minutes and seconds
         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -238,7 +245,8 @@ function timer() {
         if (distance < 0) {
             clearInterval(x);
             document.getElementById("time").innerHTML = "HẾT GIỜ !";
-            scoring(true);
+            timeout = true;
+            scoring();
         }
     }, 1000);
 }
