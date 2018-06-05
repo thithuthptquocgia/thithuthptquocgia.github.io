@@ -78,15 +78,10 @@ function generateQuiz() {
         //Quiz setup:
         var buffer = "ABCD";
         for (var j = 0; j < 4; j++) {
-            var label = document.createElement("label");
-            label.className = "css-label";
-            label.appendChild(document.createTextNode(buffer.charAt(j) + "."));
-            label.htmlFor = "radio"+i.toString()+j.toString();
+            quiz.appendChild(document.createTextNode(buffer.charAt(j) + "."));
             var radio = document.createElement("input");
             radio.type = "radio"; radio.name = "as" + (i + 1).toString();
-            radio.className = "css-checkbox";
-            radio.id = "radio"+i.toString()+j.toString()
-            quiz.appendChild(label);
+            radio.id = "radio";
             quiz.appendChild(radio);
         }
         quizAtI.appendChild(quiz);
