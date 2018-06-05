@@ -60,7 +60,7 @@
         "name": "Đề số 29",
         "subject": "Tiếng Anh",
         "number": 50,
-        "time": 5,
+        "time": 60,
         "answer": "BAADCCDBDADDCDCABCADDCAADBADABBCBAACBCDDABCCBDDAAC"
     }
 }
