@@ -1,0 +1,66 @@
+{
+    "math": {
+        "id": "math",
+        "name": "Đề thi thử THPT Chuyên Long An - lần 2",
+        "subject": "Toán",
+        "number": 50,
+        "time": 90,
+        "answer": "DCABCACAABACBCBADCDADBCAABBBBCADCBDACCDCBBDDADDDDA"
+    },
+    "phys": {
+        "id": "phys",
+        "name": "Đề thi thử Sở GD&ĐT Bình Thuận",
+        "subject": "Vật Lý",
+        "number": 40,
+        "time": 50,
+        "answer": "CAABDBACDDBADBBDCDDCBBCCAADDBBAACDBCCAAC"
+    },
+    "chem": {
+        "id": "chem",
+        "name": "chưa có",
+        "subject": "Hóa Học",
+        "number": 40,
+        "time": 50,
+        "answer": ""
+    },
+    "bio": {
+        "id": "bio",
+        "name": "chưa có",
+        "subject": "Sinh Học",
+        "number": 40,
+        "time": 50,
+        "answer": ""
+    },
+    "his": {
+        "id": "his",
+        "name": "chưa có",
+        "subject": "Lịch Sử",
+        "number": 40,
+        "time": 50,
+        "answer": ""
+    },
+    "geo": {
+        "id": "geo",
+        "name": "chưa có",
+        "subject": "Địa Lý",
+        "number": 40,
+        "time": 50,
+        "answer": ""
+    },
+    "gdcd": {
+        "id": "gdcd",
+        "name": "chưa có",
+        "subject": "GDCD",
+        "number": 40,
+        "time": 50,
+        "answer": ""
+    },
+    "eng": {
+        "id": "eng",
+        "name": "Đề số 29",
+        "subject": "Tiếng Anh",
+        "number": 50,
+        "time": 60,
+        "answer": "BAADCCDBDADDCDCABCADDCAADBADABBCBAACBCDDABCCBDDAAC"
+    }
+}
