@@ -228,7 +228,7 @@ function timer() {
         // Find the distance between now an the count down date
         var distance = countDownDate - now;
 
-        if (Math.round(distance) == 5*60*1000){
+        if (distance <= 5*60*1000 && distance >= 298 * 1000){
             // 5 minutes next:
             alert("Còn 5 phút ! Hãy hoàn thành phiếu !");
         }
