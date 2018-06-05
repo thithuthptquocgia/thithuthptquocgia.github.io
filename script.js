@@ -81,7 +81,6 @@ function generateQuiz() {
             quiz.appendChild(document.createTextNode(buffer.charAt(j) + "."));
             var radio = document.createElement("input");
             radio.type = "radio"; radio.name = "as" + (i + 1).toString();
-            radio.id = "radio";
             quiz.appendChild(radio);
         }
         quizAtI.appendChild(quiz);
