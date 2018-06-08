@@ -1,11 +1,11 @@
 {
     "math": {
         "id": "math",
-        "name": "Đề thi thử THPT Kim Liên, Hà Nội (Lần 3)",
+        "name": "Đề ôn số 1 - thầy Võ Quang Vinh",
         "subject": "Toán",
         "number": 50,
         "time": 90,
-        "answer": "DBDBBBADDDDDACCADBBACDBDBABBACBCCDBDCBADCABCAACBCA"
+        "answer": "DCABADCCBCADCDACBCDBBADDCAACCABABDDDBCADCBBBDDBACA"
     },
     "phys": {
         "id": "phys",
